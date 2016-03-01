@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/d_size_30dp"
+    android:paddingRight="@dimen/d_size_30dp"
+    android:paddingBottom="@dimen/d_size_15dp"
+    android:paddingTop="@dimen/d_size_15dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sel_btn"
+
+        android:id="@+id/btn_Name_AM"
+
+        android:text="@string/s_pleaseEnterYourName"
+        android:textAllCaps="false"
+        android:textColor="@color/sel_btn_text"
+        android:textSize="@dimen/d_textSize_20sp"
+        android:gravity="center"
+
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        style="@style/stl_EditTextStyle"
+
+        android:id="@+id/et_Filed1_AM"
+
+        android:hint="@string/s_filed1"
+
+        android:layout_below="@id/btn_Name_AM"
+        android:layout_marginTop="@dimen/d_size_15dp"/>
+
+    <EditText
+        style="@style/stl_EditTextStyle"
+
+        android:id="@+id/et_Filed2_AM"
+        android:hint="@string/s_filed2"
+
+        android:layout_below="@id/et_Filed1_AM"
+        android:layout_marginTop="@dimen/d_size_15dp"/>
+
+    <EditText
+        style="@style/stl_EditTextStyle"
+
+        android:id="@+id/et_Filed3_AM"
+        android:hint="@string/s_filed3"
+
+        android:enabled="false"
+
+        android:layout_below="@id/et_Filed2_AM"
+        android:layout_marginTop="@dimen/d_size_15dp"/>
+
+</RelativeLayout>

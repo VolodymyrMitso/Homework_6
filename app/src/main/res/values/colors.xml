@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c_actionBar">#3f51b5</color>
+    <color name="c_statusBar">#1a237e</color>
+
+    <color name="c_btn1">#FFFFFF</color>
+    <color name="c_btn2">#9E9E9E</color>
+    <color name="c_btn3">#00BCD4</color>
+
+    <color name="c_et1">#03a9f4</color>
+    <color name="c_et2">#e6ee9c</color>
+    <color name="c_et3">#689f38</color>
+    <color name="c_et4">#ffffff</color>
+    <color name="c_et5">#000000</color>
+    <color name="c_et6">#757575</color>
+    <color name="c_et7">#bdbdbd</color>
+</resources>
