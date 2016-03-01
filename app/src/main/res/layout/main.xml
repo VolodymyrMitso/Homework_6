@@ -54,4 +54,14 @@
         android:layout_below="@id/et_Filed2_AM"
         android:layout_marginTop="@dimen/d_size_15dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+
+        android:text="@string/s_loremIpsum"
+
+        android:layout_below="@id/et_Filed3_AM"
+        android:layout_marginTop="@dimen/d_size_15dp"/>
+
 </RelativeLayout>
