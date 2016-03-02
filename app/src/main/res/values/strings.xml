@@ -3,9 +3,9 @@
 
     <string name="s_pleaseEnterYourName">Please enter Your name</string>
 
-    <string name="s_filed1">Field1</string>
-    <string name="s_filed2">Field2</string>
-    <string name="s_filed3">Field3</string>
+    <string name="s_filed1">Field 1</string>
+    <string name="s_filed2">Field 2</string>
+    <string name="s_filed3">Field 3</string>
 
 
     <string name="s_loremIpsum">

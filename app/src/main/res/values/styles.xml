@@ -8,10 +8,10 @@
     <style name="stl_EditTextStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/sel_et</item>
+        <item name="android:background">@drawable/sel_sh_et</item>
 
-        <item name="android:clickable">true</item>
-        <item name="android:focusable">true</item>
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:focusable">true</item>-->
 
         <item name="android:textSize">@dimen/d_textSize_30sp</item>
         <item name="android:gravity">center</item>
