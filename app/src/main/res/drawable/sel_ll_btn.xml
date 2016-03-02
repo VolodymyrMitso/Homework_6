@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:state_pressed="true"
-        android:drawable="@drawable/sh_btn_pressed" />
+        android:drawable="@drawable/ll_btn_pressed" />
+
     <item
-        android:drawable="@drawable/sh_btn" />
+        android:drawable="@drawable/ll_btn" />
+
 </selector>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
+    android:shape="rectangle">
 
     <gradient
         android:startColor="@color/c_et5"
@@ -9,10 +9,10 @@
         android:endColor="@color/c_et7"
         android:gradientRadius="150"
         android:type="radial"
-        android:centerX="0.05"/>
+        android:centerX="0.05" />
 
     <padding
-
         android:top="10dp"
         android:bottom="10dp" />
+
 </shape>

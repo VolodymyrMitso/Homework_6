@@ -11,12 +11,14 @@
     android:paddingBottom="@dimen/d_size_15dp"
     android:paddingTop="@dimen/d_size_15dp">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/sel_sh_btn"
+        android:background="@drawable/sel_sh_tv"
 
-        android:id="@+id/btn_Name_AM"
+        android:id="@+id/tv_Name_AM"
+
+        android:clickable="true"
 
         android:text="@string/s_pleaseEnterYourName"
         android:textAllCaps="false"
@@ -33,7 +35,7 @@
 
         android:hint="@string/s_filed1"
 
-        android:layout_below="@id/btn_Name_AM"
+        android:layout_below="@id/tv_Name_AM"
         android:layout_marginTop="@dimen/d_size_15dp"/>
 
     <EditText
@@ -61,10 +63,22 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bg"
 
+        android:id="@+id/tv_LoremIpsum_AM"
         android:text="@string/s_loremIpsum"
 
         android:layout_below="@id/et_Filed3_AM"
-        android:layout_marginTop="@dimen/d_size_15dp"/>
+        android:layout_marginTop="@dimen/d_size_15dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/sel_ll_btn"
+
+        android:id="@+id/btn_Square_AM"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_LoremIpsum_AM"
+        android:layout_marginTop="@dimen/d_size_15dp" />
 
 </RelativeLayout>
 </ScrollView>
